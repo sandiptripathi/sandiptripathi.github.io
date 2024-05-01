@@ -1,0 +1,14 @@
+---
+title: "Embark on a Journey of Innovation"
+description: Explore | Learn | Share | Innovate | Travel and Beyond
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [image, date, title,subtitle,description, author, reading-time]
+page-layout: full
+title-block-banner: "#EDF3F9"
+---

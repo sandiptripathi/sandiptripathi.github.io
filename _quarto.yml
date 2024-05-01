@@ -1,0 +1,47 @@
+project:
+  type: website
+
+website:
+  favicon: logo.png
+  twitter-card: true
+  site-url: https://sandiptripathi.com
+  description: This is Sandip Tripathi's Personal Blog.
+  google-analytics: G-TEYY8YS3KD
+  navbar:
+    logo: logo.png
+    logo-alt: "Sandip Logo."
+    title: false
+    pinned: true
+    right:
+      - text: "About"
+        file: about.qmd
+      - icon: github
+        href: https://github.com/sandiptripathi
+      - icon: twitter
+        href: https://twitter.com/_sandiptripathi 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sandiptripathi      
+          
+  page-footer:
+    center:
+      - text: "© 2024 Sandip Tripathi"
+        href: https://sandiptripathi.com
+      - text: "About"
+        href: about.qmd
+      - icon: github
+        href: https://github.com/sandiptripathi
+      - icon: twitter
+        href: https://twitter.com/_sandiptripathi 
+        aria-label: Sandip Twitter
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sandiptripathi    
+         
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-location: right
+
+
+
